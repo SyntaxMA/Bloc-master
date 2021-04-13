@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        db.deleteTables();
+        // db.deleteTables();
         db.createTables();
 
         PantallaMenu pantallaMenu = new PantallaMenu();

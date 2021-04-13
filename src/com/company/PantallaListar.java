@@ -18,7 +18,7 @@ public class PantallaListar {
             int i = 1;
             for(Nota nota: Main.db.listaNota()){
                 System.out.print(i + ". ");
-                System.out.print(nota.favorito ? "<3 " : "");
+                System.out.print(nota.favorito ? "<3 " : "XD ");
                 System.out.print(nota.nombre + " ");
                 System.out.print(nota.apellido + " ");
                 System.out.print(nota.telefono + " ");

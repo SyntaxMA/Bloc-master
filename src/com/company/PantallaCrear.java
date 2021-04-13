@@ -48,7 +48,7 @@ public class PantallaCrear {
             favorito = false;
 
         }
-        Main.db.insertNota(nota.nombre, nota.apellido, nota.telefono, nota.correo , favorito );
+        Main.db.insertNota(nota.nombre, nota.apellido, nota.telefono, nota.correo , nota.favorito );
 
         Mensaje mensaje = new Mensaje();
         mensaje.mostrarInfo("¡Se ha guardado tu contacto!");

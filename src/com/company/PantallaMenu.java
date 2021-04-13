@@ -10,7 +10,7 @@ public class PantallaMenu {
         titulo.mostrar("AGENDA");    // // titulo = "AGENDA"
 
         Menu menu = new Menu();
-        String[] opciones = {"AYUDA","LISTAR","BORRAR TODO", "SALIR"};
+        String[] opciones = {"AYUDA","LISTAR","CREAR CONTACTO","BORRAR TODO", "SALIR"};
         String opcion = menu.elegirOpcion(opciones);
 
         if ("1".equals(opcion)) {
